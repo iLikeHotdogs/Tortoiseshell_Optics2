@@ -1,0 +1,56 @@
+/* Entire site */
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+html {
+    font-size: 18px;
+  }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+/*company info*/
+.top-banner {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  background-color: cadetblue;
+  color: white;
+  align-items: center;
+  padding: 1rem 0;
+  justify-content: space-between;
+
+}
+
+.top-banner img {
+  padding-left: 2rem;
+  height: 1.5rem;
+}
+
+.top-banner span {
+  padding-left: 1rem;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
