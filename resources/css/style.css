@@ -81,3 +81,23 @@ h1 {
   line-height: 1.2;
   font-weight: bold;
 }
+
+/*middle section*/
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.three-parts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
