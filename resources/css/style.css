@@ -96,23 +96,23 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+  height: 8rem;
+  margin: 3rem;
+  width: 5rem;
 }
 
 .three-parts {
   display: flex;
+
   align-items: center;
   justify-content: center;
   height: 8rem;
-  padding: 3rem 0;
+  margin: 3rem 0;
+  width: 5rem;
 }
 
-.exams p {
-  display: flex;
-  text-align: center;
-}
 
 .exams img{
-  padding-right: 6rem;
   width: 3.5rem;
   margin-bottom: 1rem;
 }
@@ -121,9 +121,16 @@ h1 {
 .fittings, .delivery, img {
   width: 5rem;
   margin-bottom: 1rem;
-
 }
+
 
 .fittings{
   padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+/*section below middle */
+
+.info {
+  display: flex;
 }
